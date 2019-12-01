@@ -83,11 +83,11 @@ author:
   name             : "Shruti Mahajan"
   avatar           : "profile.png"
   bio              : "Masters in Computer Science, Worcester Polytechnic Institute"
-  location         : ""
+  location         : "Worcester, MA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+ 
+  googlescholar    : "https://scholar.google.com/citations?user=Kw4ZWScAAAAJ&hl=en"
+  email            : "spmahajan@wpi.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "shruti-mahajan"
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "@ShrutiMahajan27"
   vine             :
   weibo            :
   xing             :
