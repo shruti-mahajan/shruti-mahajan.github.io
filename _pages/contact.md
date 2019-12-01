@@ -10,7 +10,3 @@ redirect_from:
 {% include base_path %}
 
 Email: spmahajan AT wpi DOT edu
-
-LinkedIn: <a href="www.linkedin.com/in/shrutipmahajan</a>
-
-
