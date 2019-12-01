@@ -9,9 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Email
 ======
+spmahajan AT wpi DOT edu
 
-* B.S. in Computer Science, Cummins College of Engineering for Women, Pune University, 2018
-* M.S. in Computer Science, Worcester Polytechnic Institute, 2020 (expected)
-
+LinkedIn
+======
+www.linkedin.com/in/shrutipmahajan
