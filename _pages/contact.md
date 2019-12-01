@@ -11,5 +11,6 @@ redirect_from:
 
 Email: spmahajan AT wpi DOT edu
 
-LinkedIn: www.linkedin.com/in/shrutipmahajan
+LinkedIn: <a href="www.linkedin.com/in/shrutipmahajan</a>
+
 
