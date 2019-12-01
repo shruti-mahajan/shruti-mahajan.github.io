@@ -11,30 +11,23 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Cummins College of Engineering for Women, Pune University, 2018
+* M.S. in Computer Science, Worcester Polytechnic Institute, 2020 (expected)
 
-Work experience
+Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* August 2018 -- Present: Research Assistant
+  * Duties included: Working on StudyCrafter, a system for creating games, experiments, stories and scenarios.
+  * Creating new performance metrics using Natural Language processing to analyze and provide feedback to the developers.
+  * Building an Automated Feedback system offering critique to in-progress scenarios/narratives
+  * Creating classification and word analysis deep learning models to compare and analyze narratives
+  * Supervisor: Professor Gillian Smith
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, C/C++, Java, C Sharp, R, ASM, HTML, Android
+* Software and Tools: NLTK, Pandas, TensorFlow, Keras, SQL, MongoDB
+* Operating Systems: Ubuntu, Windows
 
 Publications
 ======
@@ -42,18 +35,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Activities and Leadership Roles
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Mentoring a group of high-school and undergraduate students as a part of Women’s Research And Mentorship Program(WRAMP)
+* Delivered a seminar on ’Programming a Computer to play Chess using Artificial Intelligence and Machine Learningtechniques’.
