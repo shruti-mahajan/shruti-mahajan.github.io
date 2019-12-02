@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Download Official CV: [here](https://shruti-mahajan.github.io/files/resume_mastercopy.pdf)
+
 Education
 ======
 * B.S. in Computer Science, Cummins College of Engineering for Women, Pune University, 2018
