@@ -15,7 +15,7 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-title: "Under Review"
+Under Review
 
 {% for post in site.underreview reversed %}
   {% include archive-single.html %}
