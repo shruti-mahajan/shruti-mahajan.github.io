@@ -16,8 +16,7 @@ author_profile: true
 {% endfor %}
 
 Under Review
----
----
+------ 
 
 {% for post in site.underreview reversed %}
   {% include archive-single.html %}
