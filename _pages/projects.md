@@ -40,3 +40,6 @@ Emotion Detection Using Image and Audio Data
 Explored the different ML models to idenitfy emotions through images and audios.
 Studied why multi-modal methods have more potential from an HCI percpective.
 
+Built and Refined a Prototype for an E-commerce website
+====
+Created Wireframes using Invision and conducted Heuritisc evaluations on the prototype and conducted a usability survey for the application and created user personas.
