@@ -1003,6 +1003,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
+			height: 100%;
 ]			width: 100%;
 			border: 20px solid #fff;
 
