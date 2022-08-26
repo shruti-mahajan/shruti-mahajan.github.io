@@ -686,7 +686,7 @@ input, select, textarea {
 			height: 5em;
 			line-height: 4.5em;
 			padding: 0;
-			background-image: url("images/dark-arrow.svg");
+			background-image: url("images/blackarrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
 			text-indent: -10em;
@@ -761,7 +761,7 @@ input, select, textarea {
 			input[type="reset"].style2.down,
 			.button.style2.down,
 			button.style2.down {
-				background-image: url("images/arrow.svg");
+				background-image: url("images/blackarrow.svg");
 			}
 
 /* Form */
@@ -1871,7 +1871,8 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background-color:#284e7f;
+		background-color:#000; 
+		/* change header color here */
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1896,8 +1897,8 @@ input, select, textarea {
 			top: 0;
 			height: 3em;
 			line-height: 3em;
-			background-color: #284e7f;
-
+			background-color: #000;
+		/* change header color here and here */
 		}
 
 			#header nav ul {
@@ -2105,19 +2106,20 @@ input, select, textarea {
 			}
 
 			.main.dark .button.style2 {
-				border-color: #ffffff;
+				border-color: #000;
+				/* change index arrow border color here */
 			}
 
 				.main.dark .button.style2:hover {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: rgba(255, 255, 255, 0.041);
 				}
 
 				.main.dark .button.style2:active {
-					background-color: rgba(255, 255, 255, 0.25);
+					background-color: rgba(255, 255, 255, 0.041);
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
+					background-image: url("images/blackarrow.svg") class="filter-black";
 				}
 
 		body.is-touch .main {
