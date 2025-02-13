@@ -449,7 +449,7 @@ input, select, textarea {
 			margin: -1em 0 0 -1em;
 			opacity: 0;
 			position: fixed;
-			text-align: center;
+			text-align: left;
 			top: 50%;
 			width: 2em;
 			z-index: -1;
@@ -955,7 +955,7 @@ input, select, textarea {
 
 .container {
   position: relative;
-  text-align: center;
+  text-align: left;
   color: white;
 }
 
@@ -1161,7 +1161,7 @@ input, select, textarea {
 					-ms-flex-shrink: 1;
 					flex-shrink: 1;
 					padding: 1em 0 0 0;
-					text-align: center;
+					text-align: left;
 					width: 100%;
 				}
 
@@ -2080,7 +2080,7 @@ input, select, textarea {
 			}
 
 		.main.style3 {
-			text-align: center;
+			text-align: left;
 			padding: 6em 0 6em 0;
 		}
 
@@ -2183,7 +2183,7 @@ input, select, textarea {
 				.main.style2 .content {
 					width: 100%;
 					max-width: 100%;
-					text-align: center;
+					text-align: left;
 					-moz-transform: none;
 					-webkit-transform: none;
 					-ms-transform: none;
