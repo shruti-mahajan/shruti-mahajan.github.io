@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Big Picture by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Shruti Mahajan</title>
@@ -12,29 +8,14 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 <script src="./vendor/three.r95.min.js"></script>
-<script src="./dist/vanta.birds.min.js"></script>
-<script src="./dist/vanta.waves.min.js"></script>
 
 <style>
-
-#vantajs { 
-  width:100%;
-  height: 100%;
-  background-color: #000;
-}
-
-#vantajsx { 
-  width:100%;
-  height: 100%;
-  background-color: #000;
-}
-
 	
-.image {
+/* .image {
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-}
+} */
 
 </style>
 
@@ -45,24 +26,78 @@
 	<body class="is-preload">
 	<div id="vantajs">
 	<div id="intro">
-<!-- 	<img src="intro.jpg" height:30px style="margin-top:-150px;">
-		 -->
-		<section id="intro" class="main style2 dark fullscreen">
+		<section id="intro" class="main style2 dark fullscreen" style="background-color:whitesmoke">
 				<div class="content">
-					<header> 
-						<h2><span style="color:black; background-color: #eeeded">Hey.</span></h2>
-					</header>
-					<p><span style="color:black; background-color: #eeeded"> I'm <strong>Shruti Mahajan</strong></span></p>
-					<p><span style="color:black; background-color: #eeeded"> I am an Assistant Professor in the <a href="https://www.union.edu/computer-science">Computer Science department</a> at <a href="https://www.union.edu/">Union College, NY</a></span></p>
-					<p><span style="color:black; background-color: #eeeded">My research interests are: <strong>Human Computer Interaction (HCI), User Experience (UX)</strong></span></p>	
-					<p><span style="color:black; background-color: #eeeded">Check out my research group to learn more about our work:  <a href="https://union-hci-h8bd.vercel.app/">The Computers and People (CAP) Lab</a></p>
-					<img src="headshot editted.jpeg" height:1000px style="margin-top:-1px; alt="" class="image">
+
+					<style>
+						* {
+						  box-sizing: border-box;
+						}
+						
+						/* Create two equal columns that floats next to each other */
+						.column {
+						  float: left;
+						  padding: 5px;
+						}
+						
+						.left{
+							width:70%
+						}
+						
+						.right{
+							width:25%
+						}
+						
+						.mid{
+							width:5%
+						}
+
+						.row:after {
+						  content: "";
+						  display: table;
+						  clear: both;
+						}
+						</style>
+						</head>
+						<body>
+												
+						<div class="row">
+						  <div class="column left">
+							<header> 
+								<h2><span style="color:black">Hey.</span></h2>
+							</header>
+							<p><span style="color:black";> 
+								
+							I'm <strong>Shruti Mahajan</strong>
+							<br>Assistant Professor in the <a href="https://www.union.edu/computer-science">Computer Science department</a> at <a href="https://www.union.edu/">Union College, NY</a>
+							<br>Research interests: <strong>Human Computer Interaction (HCI), User Experience (UX)</strong>	
+							<br>Check out my research group to learn more about our work:  <a href="https://union-hci-h8bd.vercel.app/">The Computers and People (CAP) Lab</a></span></p>
+							
+							<br>
+
+							<p><span style="color:black; font-size:15px; text-align: justify;"> 
+								I received my Ph.D. from the Human-Computer Interaction lab, Computer Science department at Worcester Polytechnic Institute (WPI), MA in May 2024. My work has been published and recognized at top computing HCI conferences like the Conference on Human Factors in Computing Systems (CHI) and the Conference on Computers and Accessibility (ASSETS) conferences. Across my research projects, I care deeply about conducting user-centered and participatory research with careful consideration of how technology impacts society. 
+								<br>
+								Besides research, I actively engage mentoring and outreach efforts to promote inclusivity and diversity in the field of computing. 
+								<br>
+								Outside work, I enjoy science fiction books/movies, and learning new languages!
+								</span></p>
+							
+						  </div>
+						  <div class="column mid">
+							</div>
+
+
+						  <div class="column right">
+						
+							<img src="headshot editted.jpeg" height="400px"; style="margin-top:-1px"; alt="" class="image">
+
+						  </div>
+						</div>
+						
 				
 
-<!-- 					<footer>
-						<a href="#one" class="button style2 down">More</a>
-					</footer>
- -->
+
 				</div>
 			</section>
   </div>
@@ -74,12 +109,10 @@
 					<ul>
 
 						<li><a href="#intro">Home</a></li>
-<!-- 						<li><a href="#one">Who I Am</a></li>
-						<li><a href="#two">What I Do</a></li> -->
-						<li><a href="https://union-hci-h8bd.vercel.app/">Research Group</a></li>
-<!--						<li><a href="pub.html">Publications</a></li> -->
-<!-- 						<li><a href="awards.html">Awards</a></li> -->
-<!-- 						<li><a href="">Teaching</a></li>-->
+						<li><a href="https://union-hci-h8bd.vercel.app/"> <span style="font-size: larger;"><u>Research Group [CAP LAB]</u></span></a></li>
+     					<li><a href="#teaching">Teaching</a></li> 
+						<li><a href="#publication"> Publications</a> </li>
+						<li><a href="#advising"> Advising</a> </li>
 						<li><a href="https://drive.google.com/file/d/1WZOmLY7EHfOU52KBAeffJpNE6FKVdzF3/view?usp=sharing">Academic CV</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
@@ -130,67 +163,190 @@
 			</section>
 			  -->
 			
+		
+		  <section id="teaching" class="main style2 dark fullscreen" style="background-color:beige">
+			
+			<div class="teaching">
+				<span style="color:black; background-color: blue; text-align: left; width:80%"> 
+				
+					<h2>Teaching</h2>
+					
+				<ul> 
+					<li>- Fall 2024: (CSC 106) Can Computers Think?</li>
+					<li>- Winter 2025: (CSC 380) User Interfaces</li>
+					<li>- Spring 2025: (CSC 106) Can Computers Think?, (CSC 240) Web Programming</li>
+
+					<h3>Before Joining Union: </h3>
+
+					<li>- Summer Outreach @WPI- STEM Exploration Program:</b> Taught High School children coding with<a href="https://earsketch.gatech.edu/landing/#/"> EarSketch</a>: An online platform for remixing music with code.</b></p>
+						<video width="320" height="240" controls>
+						  <source src="earsketch.mp4" type="video/mp4">
+						</video></li>
+
+					<h4> Teaching Assistantships </h4>
+					
+					<li>- (CS 3041) Human-Computer Interaction - B Term 2020, D Term 2021 </li>
+					<li>- (CS 4518) Mobile and Ubiquitous Computing - A Term 2020 </li>
+					<li>- (CS 4341) Introduction To Artificial Intelligence C Term 2021</li>
+				</ul>
+			</span>
+			
+			</div>
+		</section>
+
+
 		<!-- Publications -->
-		<!-- <body class="is-preload">
-		<div id="vantajsx">
-		<section id="publication" class="main style1 dark fullscreen">
-				<div class="content">
-					<header>
-						<h2>Publications</h2>
-					</header>
-					<ul>
-						    
-						<li>
-					<p>
-						    [1] <b>Shruti Mahajan</b>, Khulood Alkhudaidi, Rachel Boll, Jeanne Reis, Erin Solovey, <b>"Role of Technology in Increasing Representation of Deaf Individuals in Future STEM Workplaces"</b>, CHIWORK ’22
-				    </p>
-						</li>
-						    
-						 
-						<li>
-					<p>
-						    [1] <b>Shruti Mahajan</b>, Zoey Walker, Rachel Boll, Ally Salvino, Michael Westfort, Jeanne Reis, Erin Solovey, <b>"Towards Sign Language-Centric Design of ASL Survey Tools"</b>, CHI ’22 [Honorable Mention for Best Paper!!]
-				    </p>
-						</li>
-						    
-						 
-						<li>
-					<p>
-						    [2] Denisa Qori McDonald, <b>Shruti Mahajan</b>, Richard Vallett, Erin Solovey, Genevieve Dion, Ali Shokoufandeh, <b>"Interaction with Touch-Sensitive Knitted Fabrics: User Perceptions and Everyday Use Experiments"</b>, CHI ’22
-				    </p>
-						</li>
-					</li>
-													
-						    <li>
-					<p>
-						    [3] Rachel Boll, <b>Shruti Mahajan</b>, Jeanne Reis, Erin Solovey,<br><a href="https://users.wpi.edu/~esolovey/papers/Boll-ASSETS20.pdf"><b>Creating questionnaires that align with ASL linguistic principles and <br> cultural practices within the Deaf community</b></a>, ASSETS 2020: ACM SIGACCESS Conference on Computers and Accessibility, 2019
-					</p>
-						</li>
-						<li>
-					<p>
-						    [4] <b>Shruti Mahajan</b>, Leo Bunyea, Nathan Partlan, Dylan Schout, Casper Harteveld, Camillia Matuk, Will Althoff, Tyler Duke, Steven Sutherland, Gillian Smith, <br><a href="https://par.nsf.gov/servlets/purl/10123274"><b>Toward Automated Critique for Student-Created Interactive Narrative Projects</b></a> Experimental AI in Games, An AIIDE 2019 Workshop, 2019
-					</p>
-						</li>
+		<body class="is-preload">
+			<section id="publication" class="main style2 dark fullscreen" style="background-color: papayawhip;">
+					<div class="content" style="margin: 100px; color: black; ">
+						<header>
+							<h2>Publications</h2>
+						</header>
+	
+						<ul>
+
+							<li>
+								<p>
+										[1]Khulood Alkhudaidi^, Tish Burke^, <b>Shruti Mahajan*</b>, Rachel Boll*, Erin Solovey, Jeanne Reis "Perceptions and Preferences: Deaf ASL-Signing Users’ Insights
+										on Video Elements, Styles and Layouts", CHI '25
+										(*,^:denotes equal contribution) [Conditionally Accepted]
+									</p>
+									</li>
+	
+							<li>
+
+							<li>
+								<p>
+										[2] <b>Shruti Mahajan*</b>,  Rachel Boll*, Khulood Alkhudaidi, Jeanne Reis, Erin Solovey "Conducting HCI Research with the Deaf Community in American Sign Language]{Conducting HCI Research with the Deaf Community in American Sign Language: Practices and Experiences", Case Studies of HCI in Practice at CHI '25
+										(*:denotes equal contribution) 
+									</p>
+									</li>
+	
+							<li>
+						<p>
+								[3] <b>Shruti Mahajan*</b>,  Rachel Boll*, Tish Burke^, Khulood Alkhudaidi^, Brittany Henriques''', Isabelle Cordova''', Zoey Walker, Erin Solovey, Jeanne Reis "User Perceptions and Preferences for Online Surveys in American
+								Sign Language: An Exploratory Study", ASSETS '23
+								(*,^,''':denotes equal contribution) <a href= "https://drive.google.com/file/d/1OB2MmTNEhDGhx_jr18RMAiSfLzjIbaM0/view?usp=sharing">[Paper Link]</a>
+							</p>
+							</li>
+		
+							<li>
+						<p>
+								[4] <b>Shruti Mahajan</b>, “Creating ASL Resources to Increase Access and Representation of the Signing ASL Community and Advance ASL-centered Research”, DC ASSETS 2023 
+								<a href= "https://drive.google.com/file/d/1OZ_UAT7VUfScMsIRVtCRp0kXw5tcqPsL/view?usp=sharing">[Paper Link]</a>
+							</p>
+							</li>
+							
+				
+							<li>
+						<p>
+								[5] Steven Sutherland, Tiago Machado, <b>Shruti Mahajan</b>, Omid Mohaddesi, Camillia Matuk, Gillian Smith and Casper Harteveld, “Exploring the Role of AI-Generated Feedback Tangential to Learning Outcomes”, IEEE Conference on Ganes (CoG 2023)
+								<a href= "https://drive.google.com/file/d/1N6wlWOXu9q2w5sF0EcfYfOtw_oybgDA-/view?usp=sharing">[Paper Link]</a>
+							</p>
+							</li>
+	
+		
+							<li>
+						<p>
 						
-						<h3>Workshop Papers</h3>
-						<li>
-					<p>
-						    [4] <b>Shruti Mahajan</b>, Denisa Qori McDonald, Richard Vallett, Gillian Smith, <br><a href="https://drive.google.com/file/d/1yWzkIPzJ5I1G94LalbULZBlz9hZvO0F-/view?usp=sharing"><b>Concept Design for Family Well-being with Knitted Touch Sensors and Augmented Reality</b></a> TANGIBLE INTERACTION FOR WELL-BEING Workshop at CHI 2022 
-					</p>
+							
+								[6] <b>Shruti Mahajan</b>, Zoey Walker, Rachel Boll, Ally Salvino, Michael Westfort, Jeanne Reis, Erin Solovey, "Towards Sign Language-Centric Design of ASL Survey Tools", CHI ’22 [Honorable Mention for Best Paper!!]
+								<a href="https://dl.acm.org/doi/fullHtml/10.1145/3491102.3502047">[Paper Link]</a>
+							</p>
+							</li>
+								
+							 
+							<li>
+						<p>
+								[7] Denisa Qori McDonald, <b>Shruti Mahajan</b>, Richard Vallett, Erin Solovey, Genevieve Dion, Ali Shokoufandeh, "Interaction with Touch-Sensitive Knitted Fabrics: User Perceptions and Everyday Use Experiments", CHI ’22
+								<a href="https://dl.acm.org/doi/abs/10.1145/3491102.3502077?casa_token=_lC31TZLnoQAAAAA:Pp7x9Bqri7tx3AcVS0tZUekFM5F594Qg5Lx-EicaBHuUUwpM4eEwOory63AVmS4a57jwuzYpPTk">[Paper Link]</a>
+						</p>
+							</li>
 						</li>
-						
-						
-													<br>
-													<br>
-													<br>
-													<br>
-													<br>
-					</ul>								
+	
+							<li>
+								<p>
+										[8] <b>Shruti Mahajan</b>, Khulood Alkhudaidi, Rachel Boll, Jeanne Reis, Erin Solovey, "Role of Technology in Increasing Representation of Deaf Individuals in Future STEM Workplaces", CHIWORK ’22
+										<a href="https://dl.acm.org/doi/abs/10.1145/3533406.3533421">[Paper Link]</a>
+								</p>
+							</li>
+	
 										
+							<li>
+								<p>
+										[9] Rachel Boll, <b>Shruti Mahajan</b>, Jeanne Reis, Erin Solovey "Creating questionnaires that align with ASL linguistic principles and cultural practices within the Deaf community", ASSETS 2020: ACM SIGACCESS Conference on Computers and Accessibility, 2019
+										<a href="https://dl.acm.org/doi/abs/10.1145/3373625.3418071">[Paper Link]</a>
+								</p>
+							</li>
+	
+							<li>
+								<p>
+										[10]<b>Shruti Mahajan</b>, Denisa Qori McDonald, Richard Vallett, Fannie Lui, Gillian Smith, Erin Solovey "Concept Design for Family Well-being with Knitted Touch Sensors and Augmented Reality", 
+										<a href="https://tangibleinteraction4wellbeing.wordpress.com/">TANGIBLE INTERACTION FOR WELL-BEING Exploring the role of technology for supporting well-being in post-pandemic futures</a>, CHI 2022 Workshop
+										<a href="Concept Design for Family Well-being with Knitted Touch Sensors and Augmented Reality.pdf">[Paper Link]</a>  
+									</p>
+								</li>
+	
+								<li>
+									<p>
+										[11]<b>Shruti Mahajan</b>, Denisa Qori McDonald, Richard Vallett, Fannie Lui, Erin Solovey "Exploring Use of AR and Soft Knitted Sensor Technology for Co-located Parent-Child Quality Time",
+										<a href="https://sites.google.com/vt.edu/acmgroup2022workshop"> TECHNOLOGIES FOR CHILDREN AT HOME Exploring Ways To Support Caregivers With Child-friendly Media Technologies For The Home</a>, ACM GROUP 2022 Workshop
+										<a href="https://www.denisamcdonald.com/papers/exploring_use_of_ar_and_soft_knitted_sensors_technology_for_co-located_parent-child_quality_time.pdf">[Paper Link]</a>
+									</p>
+								</li>
+	
+								<li>
+									<p style="color:black">
+										[12] <b>Shruti Mahajan</b>, Leo Bunyea, Nathan Partlan, Dylan Schout, Casper Harteveld, Camillia Matuk, Will Althoff, Tyler Duke, Steven Sutherland, Gillian Smith "Toward Automated Critique for Student-Created Interactive Narrative Projects", 
+											<a href="https://www.exag.org/"> Experimental AI in Games, An AIIDE 2019 Workshop, 2019</a>
+										<a href="https://par.nsf.gov/servlets/purl/10123274">[Paper Link]</a>
+									</p>
+								</li>
+					
+								</span>
+						</ul>								
+					</div>
+				</section>
+			  </div> 
+	
+		<!-- Advising -->
+
+			  <section id="advising" class="main style2 dark fullscreen" style="background-color:bisque">
+			
+				<div class="advising">
+					<span style="color:black; background-color: blue; text-align: left; width:80%"> 
+					
+						<h2>Advising</h2>
+						
+					<ul> 
+						<li>- Work-Study Students: Victor Wong, James Lin, Luodi Wang, Kshitij Agarwal, Advitya Singh </li>
+						<li>- Practicuum: Ramissa Khan </li>
+	
+						<li><h3>Before Joining Union: </h3></li>
+
+						<li><h4> Major Qualifying Projects </h4></li>
+
+						<li>- 2023 Julia Albrecht, Juliana Porto, Jenna Tripoli </li>
+				
+						<li>- 2023 Amanda Jones, Elise Nerden, Megan Letendre: Project title: "Sewn Into Memory:
+								Reliving feelings through an AR Quilt". <a href="https://youtu.be/WdQ9v9uwEcE">[Video Link]</a></p></li>
+
+						<li>- 2022 Isabelle Cordova, Brittany Henriques, Tori Buyck Project title: "Towards Inclusive Learning and Research with Sign Language Surveys". <a href="https://digital.wpi.edu/concern/student_works/kd17cx042?locale=en">[Project Report Link]</a></p></li>
+						
+						<li>- 2021 Michelle Santacreu </li>
+						
+						<li><h4>Undergraduate mentoring - Summer </h4></li>
+							
+						<li>- 2023 Reilly Desai, Amanda Jones</li>
+						<li>- 2022 Brittany Henriques, James Plante, Evans Owusu, Sophia Silkaitis</li>
+						<li>- 2020 Ally Salvino, Molly Sunray </li>
+						<li>- Women’s Research and Mentoring Program (WRAMP): 2019 Grace Malabanti, Aracely Herrera, Lindsey Leitko </li>
+					</ul>
+				</span>
+				
 				</div>
 			</section>
-  		</div> -->
-
+			
 		<!-- Contact -->
 		
 		
@@ -198,15 +354,22 @@
 		
 			<section id="contact" class="main style3 secondary">
 			
-				<div class="content">
+				<div class="content" style="padding: 3%;">
+					<span style="text-align: center; margin-left: 20px;"> 
 					<header>
 						<h2>Say Hello.</h2>
 						<p>Email: mahajans AT union DOT edu</p>
+
 					<ul>
 						<li><a href="https://scholar.google.com/citations?user=Kw4ZWScAAAAJ&hl=en"><b>[Google Scholar]</b></a></li>
 						<li><a href="https://www.linkedin.com/in/shrutipmahajan"><b>[LinkedIn]</span></b></a></li>
 						<li><a href="https://twitter.com/ShrutiMahajan27"><b>[Twitter]</span></b></a></li>
-					</ul>
+					<li><p>I'm always open to discussing academic advising, research, classes, collaborations, or anything else on your mind! Feel free to schedule a meeting. If none of the available times work for you, or if you have an urgent matter, don't hesitate to reach out so we can find a time that fits.</p></li>
+					<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/mahajans-union/set-up-a-meeting-with-me" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+				</ul>
 					</header>
 <!-- 					<div class="box">
 						<form method="post" action="#">
@@ -222,6 +385,7 @@
 					</div> -->
 				</div>
 			</section>
+			
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -244,7 +408,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+<!--
+	
 <script>
 
 VANTA.BIRDS({
@@ -260,8 +425,10 @@ VANTA.BIRDS({
     color1: 0xff2828,
     color2: 0xe6b13d
 })
-		 
+
 </script>
+-->
+
 </script>
 	</body>
 </html>
