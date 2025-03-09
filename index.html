@@ -13,6 +13,9 @@
 	  * {
     box-sizing: border-box;
   }
+	body {
+    overflow-x: hidden;
+}
 
   .row {
     display: flex;
@@ -38,9 +41,12 @@
     flex: 0 0 5%; /* Minimal space for center column */
   }
 
-  .image {
-    width: 100%; /* Ensure image is responsive */
-    max-width: 400px; /* Limit max size for large screens */
+	  .image {
+    width: 100%; 
+    max-width: 400px; /* Adjust based on your preferred size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* If you want to keep it round */
+}
   }
 
   /* Media query for small screens */
