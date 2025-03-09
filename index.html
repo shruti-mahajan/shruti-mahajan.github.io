@@ -10,14 +10,52 @@
 <script src="./vendor/three.r95.min.js"></script>
 
 <style>
-	
-/* .image {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-} */
+	  * {
+    box-sizing: border-box;
+  }
 
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensure content wraps on small screens */
+  }
+
+  .column {
+    padding: 5px;
+  }
+
+  .left {
+    flex: 1;
+    min-width: 250px; /* Ensure a minimum width */
+  }
+
+  .right {
+    flex: 0 0 200px;
+    min-width: 200px;
+    margin-top: 10px;
+  }
+
+  .mid {
+    flex: 0 0 5%; /* Minimal space for center column */
+  }
+
+  .image {
+    width: 100%; /* Ensure image is responsive */
+    max-width: 400px; /* Limit max size for large screens */
+  }
+
+  /* Media query for small screens */
+  @media screen and (max-width: 768px) {
+    .left, .right {
+      flex: 1 100%; /* Stack columns vertically on small screens */
+      min-width: 100%;
+    }
+
+    .image {
+      max-width: 100%; /* Ensure image scales with the screen */
+    }
+  }
 </style>
+
 
 		
 	</head>
